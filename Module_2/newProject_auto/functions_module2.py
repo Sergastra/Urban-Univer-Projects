@@ -1,5 +1,8 @@
 def print_params(name):
-    print("Good Job -", name)
+    print(f"Good Job - ", name + " " + name)
+    print('-------------------------')
+    print(f"Good Job - ", name)
+    print('******************')
 
 
 print_params("Victor")
