@@ -1,0 +1,38 @@
+Index: ../game_Nim/practice_mod4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from termcolor import colored\r\nfrom nim_engine import get_bunches, put_stones, is_gameover, take_from_bunch\r\nimport os\r\n\r\nos.system('color')\r\n\r\nput_stones()\r\nuser_number = 1\r\nwhile True:\r\n    print(colored(\"Текущая позиция\", color='green'))\r\n    print(colored(get_bunches(), color='green'))\r\n    user_color = 'blue' if user_number == 1 else 'yellow'\r\n    print(colored('Ход игрока {}'.format(user_number), color=user_color))\r\n    pos = input(colored(\"Откуда берём?\", color=user_color))\r\n    qua = input(colored(\"Сколько берём?\", color=user_color))\r\n    step_successed = take_from_bunch(position=int(pos), quantity=int(qua))\r\n    if step_successed:\r\n        user_number = 2 if user_number == 1 else 1\r\n    else:\r\n        print(colored('Невозможный ход', color='red'))\r\n\r\n    if is_gameover():\r\n        break\r\n\r\nprint(colored('Выйграл игрок {}'.format(user_number), color='red'))\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../game_Nim/practice_mod4.py b/../game_Nim/practice_mod4.py
+--- a/../game_Nim/practice_mod4.py	(revision b890deca308fa149d1f5521c79778727957e3025)
++++ b/../game_Nim/practice_mod4.py	(date 1717986045017)
+@@ -1,4 +1,4 @@
+-from termcolor import colored
++from termcolor import colored, cprint
+ from nim_engine import get_bunches, put_stones, is_gameover, take_from_bunch
+ import os
+ 
+@@ -7,10 +7,10 @@
+ put_stones()
+ user_number = 1
+ while True:
+-    print(colored("Текущая позиция", color='green'))
+-    print(colored(get_bunches(), color='green'))
++    cprint(colored("Текущая позиция", color='green'))
++    cprint(colored(get_bunches(), color='green'))
+     user_color = 'blue' if user_number == 1 else 'yellow'
+-    print(colored('Ход игрока {}'.format(user_number), color=user_color))
++    cprint(colored('Ход игрока {}'.format(user_number), color=user_color))
+     pos = input(colored("Откуда берём?", color=user_color))
+     qua = input(colored("Сколько берём?", color=user_color))
+     step_successed = take_from_bunch(position=int(pos), quantity=int(qua))
+@@ -18,7 +18,6 @@
+         user_number = 2 if user_number == 1 else 1
+     else:
+         print(colored('Невозможный ход', color='red'))
+-
+     if is_gameover():
+         break
+ 
