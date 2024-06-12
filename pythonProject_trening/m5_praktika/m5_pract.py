@@ -15,5 +15,10 @@ class User:
 
 if __name__ == '__main__':
     database = Database()
-    user = User(input("Введите логин: "), input("Введите пароль: "), input("Повторите пароль: "))
-    database.add_user(user.username, user.password)
+    while True:
+        choise = input("Приветствую! Выберите действие: \n1 - Вход\n2 - Регистрация\n")
+        user = User(input("Введите логин: "), password := input("Введите пароль: "),
+                    password2 := input("Повторите пароль: "))
+        if password != password2:
+            exit()
+        database.add_user(user.username, user.password)
