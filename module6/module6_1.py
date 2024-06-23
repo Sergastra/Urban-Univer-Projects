@@ -7,24 +7,22 @@ class Animal:
 
 
 class Mammal(Animal):
-    fed = True
 
-    def eat(self, food):
+    def eat(self, food, fed=True):
         self.food = food
+        self.fed = fed
 
         if food != 1:
             print(f'{self.name} съел {food.name}')
-
         else:
             print(f'{self.name} не стал есть {food.name}')
 
 
-
 class Predator(Animal):
-    alive = False
 
-    def eat(self, food):
+    def eat(self, food, alive=False):
         self.food = food
+        self.alive = alive
 
         if food == 1:
             print(f'{self.name} съел {food.name}')
