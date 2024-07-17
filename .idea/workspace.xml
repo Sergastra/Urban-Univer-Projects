@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ee9afa-de64-4d4c-b91f-a640d73606eb" name="Changes" comment="read file">
-      <change afterPath="$PROJECT_DIR$/module7_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module7_3" beforeDir="false" afterPath="$PROJECT_DIR$/../module7_3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.module7_1.executor": "Run",
-    "Python.module7_2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "c3c460f0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.module7_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module7_2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1ddca173&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Python.module7_1">
     <configuration name="module7_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="module7" />
       <option name="ENV_FILES" value="" />
@@ -138,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721227077910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="read file">
+      <option name="closed" value="true" />
+      <created>1721227497374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721227497374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="read file">
+      <option name="closed" value="true" />
+      <created>1721227993622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721227993622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
