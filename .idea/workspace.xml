@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0ee9afa-de64-4d4c-b91f-a640d73606eb" name="Changes" comment="read file">
-      <change beforePath="$PROJECT_DIR$/../module7_3" beforeDir="false" afterPath="$PROJECT_DIR$/../module7_3" afterDir="false" />
+    <list default="true" id="b0ee9afa-de64-4d4c-b91f-a640d73606eb" name="Changes" comment="7_2 file">
+      <change afterPath="$PROJECT_DIR$/module7_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module7_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module7_3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.module7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module7_2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;1ddca173&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.module7_1.executor": "Run",
+    "Python.module7_2.executor": "Run",
+    "Python.module7_4.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "8ce2b796"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python.module7_1">
+}]]></component>
+  <component name="RunManager">
     <configuration name="module7_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="module7" />
       <option name="ENV_FILES" value="" />
@@ -154,10 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721227993622</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="7_2 file">
+      <option name="closed" value="true" />
+      <created>1721229316179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721229316179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a8a7cbca-5bbf-40aa-bb92-3ce6ac373047" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -168,12 +184,37 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/detached2" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="a8a7cbca-5bbf-40aa-bb92-3ce6ac373047">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -184,7 +225,8 @@
     <MESSAGE value="New_module" />
     <MESSAGE value="fixup! read file" />
     <MESSAGE value="read file" />
-    <option name="LAST_COMMIT_MESSAGE" value="read file" />
+    <MESSAGE value="7_2 file" />
+    <option name="LAST_COMMIT_MESSAGE" value="7_2 file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
