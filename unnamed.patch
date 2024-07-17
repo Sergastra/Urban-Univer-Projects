@@ -1,0 +1,143 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision cbb86a90eb1f31eb403ccbc208c72a79dcad3835)
++++ b/.idea/misc.xml	(revision 3bb63830a20f05ef8d3720fb43f31cb9bc15faea)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.12 (module7)" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (module7)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: module7_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module7_1.py b/module7_1.py
+--- a/module7_1.py	(revision cbb86a90eb1f31eb403ccbc208c72a79dcad3835)
++++ b/module7_1.py	(revision 3bb63830a20f05ef8d3720fb43f31cb9bc15faea)
+@@ -1,1 +1,6 @@
++from pprint import pprint
+ 
++name = 'text.txt'
++file = open(name, 'r')
++pprint(file.read())
++file.close()
+Index: text.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/text.txt b/text.txt
+new file mode 100644
+--- /dev/null	(revision 3bb63830a20f05ef8d3720fb43f31cb9bc15faea)
++++ b/text.txt	(revision 3bb63830a20f05ef8d3720fb43f31cb9bc15faea)
+@@ -0,0 +1,18 @@
++# -*- coding: utf-8 -*-
++My soul is dark - Oh! quickly string
++The harp I yet can brook to hear;
++And let thy gentle fingers fling
++Its melting murmurs o'er mine ear.
++If in this heart a hope be dear,
++That sound shall charm it forth again:
++If in these eyes there lurk a tear,
++'Twill flow, and cease to burn my brain.
++
++But bid the strain be wild and deep,
++Nor let thy notes of joy be first:
++I tell thee, minstrel, I must weep,
++Or else this heavy heart will burst;
++For it hath been by sorrow nursed,
++And ached in sleepless silence, long;
++And now 'tis doomed to know the worst,
++And break at once - or yield to song.
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision cbb86a90eb1f31eb403ccbc208c72a79dcad3835)
++++ b/.idea/workspace.xml	(revision 3bb63830a20f05ef8d3720fb43f31cb9bc15faea)
+@@ -1,11 +1,18 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="b0ee9afa-de64-4d4c-b91f-a640d73606eb" name="Changes" comment="" />
++    <list default="true" id="b0ee9afa-de64-4d4c-b91f-a640d73606eb" name="Changes" comment="New_module">
++      <change afterPath="$PROJECT_DIR$/../Urban-Univer-Projects" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectColorInfo"><![CDATA[{
+   "associatedIndex": 7
+@@ -16,6 +23,12 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master"
++  }
++}]]></component>
+   <component name="RunManager">
+     <configuration name="module7_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <module name="module7" />
+@@ -56,14 +69,38 @@
+       <option name="presentableId" value="Default" />
+       <updated>1719767364521</updated>
+     </task>
++    <task id="LOCAL-00001" summary="New_module">
++      <option name="closed" value="true" />
++      <created>1719767504497</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1719767504497</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="New_module" />
++    <option name="LAST_COMMIT_MESSAGE" value="New_module" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/main.py</url>
+-          <line>8</line>
++          <url>file://$PROJECT_DIR$/module7_1.py</url>
++          <line>1</line>
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>
+       </breakpoints>
