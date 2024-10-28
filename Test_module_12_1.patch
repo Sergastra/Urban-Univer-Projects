@@ -1,0 +1,70 @@
+Subject: [PATCH] Test_module_12_1
+---
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 744e9d4b7b6ea37c505a11a71e79cfbd1ab62108)
++++ b/.idea/workspace.xml	(revision ca39ba30fb7c1e1128945d5444a2a2b70e248fdd)
+@@ -8,7 +8,6 @@
+       <change beforePath="$PROJECT_DIR$/../Urban-Univer-Projects" beforeDir="false" afterPath="$PROJECT_DIR$/../Urban-Univer-Projects" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/../Urban-Univer-Projects/Urban-Univer-Projects" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/../Urban-Univer-Projects/pythonProject1" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -100,12 +99,50 @@
+       <option name="project" value="LOCAL" />
+       <updated>1730102968453</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Test_module_12">
++      <option name="closed" value="true" />
++      <created>1730103330843</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1730103330843</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
++    <option name="OPEN_GENERIC_TABS">
++      <map>
++        <entry key="2fcc134c-f1a6-471e-a3a6-c2562175c4ab" value="TOOL_WINDOW" />
++      </map>
++    </option>
+     <option name="TAB_STATES">
+       <map>
++        <entry key="2fcc134c-f1a6-471e-a3a6-c2562175c4ab">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="HEAD" />
++                      </list>
++                    </value>
++                  </entry>
++                  <entry key="roots">
++                    <value>
++                      <list>
++                        <option value="$PROJECT_DIR$" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
++            </State>
++          </value>
++        </entry>
+         <entry key="MAIN">
+           <value>
+             <State />

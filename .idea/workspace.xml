@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ddbcf72-e994-45b8-8b51-8b3704b53074" name="Changes" comment="Test_module_12">
+    <list default="true" id="1ddbcf72-e994-45b8-8b51-8b3704b53074" name="Changes" comment="Test_module_12_1">
+      <change afterPath="$PROJECT_DIR$/Test_module_12_1.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Urban-Univer-Projects" beforeDir="false" afterPath="$PROJECT_DIR$/../Urban-Univer-Projects" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Urban-Univer-Projects/Urban-Univer-Projects" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Urban-Univer-Projects/pythonProject1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +109,26 @@
       <option name="project" value="LOCAL" />
       <updated>1730103330843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test_module_12_1">
+      <option name="closed" value="true" />
+      <created>1730103974903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730103974903</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
@@ -116,11 +136,41 @@
         <entry key="2fcc134c-f1a6-471e-a3a6-c2562175c4ab" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="2fcc134c-f1a6-471e-a3a6-c2562175c4ab">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -145,7 +195,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -153,6 +215,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test_module_12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test_module_12" />
+    <MESSAGE value="Test_module_12_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test_module_12_1" />
   </component>
 </project>
